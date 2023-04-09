@@ -1,0 +1,45 @@
+git init
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+git branch -M master
+git remote add origin https://github.com/lukakrstik/SI_2023_lab1_213257.git
+git push -u origin master
+nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+git push
+git branch bug1
+git branch bug2
+git branch bug3
+git checkout bug1
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+git checkout bug2
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+git checkout bug3
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+git push --all origin
+git checkout master
+git merge bug1
+git push --all origin
+git merge bug2
+git push --all origin
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3
+git push --all --force origin
+git add *.txt
+git commit -m "Final commit"
+git push --all origin
+
+18. Nema Konflikt
+20. Nema Konflikt ORT strategija
+23. git rebase master
+24. git merge bug3, fast forward

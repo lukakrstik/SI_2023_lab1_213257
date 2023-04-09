@@ -1,0 +1,36 @@
+commit b4988e026e8bc0440b0fea093bfd284677b75c2a (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 16:58:26 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit db4a5991274c6e6d07723997540a7d38c1dfabca
+Merge: eec6241 7925fb5
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 17:01:19 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 7925fb58c4eb79939ff26c1e89da344b25fe8563 (origin/bug2, bug2)
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 16:57:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit eec6241235e3dc05418affacf303b7f9dd772ac1 (origin/bug1, bug1)
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 16:56:42 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 6287299d93a17f78bbf459fa154a942bb4ebbd50
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 16:54:44 2023 +0200
+
+    Add java class
+
+commit 77bf4717a7e992c1c22120ad9e2f4b5e126cdf81
+Author: lukakrstik <luka.krstik@protonmail.com>
+Date:   Sun Apr 9 16:52:56 2023 +0200
+
+    Initial commit
